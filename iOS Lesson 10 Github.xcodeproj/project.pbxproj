@@ -11,6 +11,12 @@
 		6F0C6F5E2AB84B46008ECCA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C6F5D2AB84B46008ECCA7 /* ContentView.swift */; };
 		6F0C6F602AB84B48008ECCA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0C6F5F2AB84B48008ECCA7 /* Assets.xcassets */; };
 		6F0C6F632AB84B48008ECCA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0C6F622AB84B48008ECCA7 /* Preview Assets.xcassets */; };
+		6F0C6F6A2AB84C9F008ECCA7 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C6F692AB84C9F008ECCA7 /* AddView.swift */; };
+		6F0C6F6C2AB84CD3008ECCA7 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C6F6B2AB84CD3008ECCA7 /* DetailView.swift */; };
+		6F0C6F6E2AB84CF2008ECCA7 /* BlindingArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C6F6D2AB84CF2008ECCA7 /* BlindingArrays.swift */; };
+		6F0C6F702AB84D03008ECCA7 /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C6F6F2AB84D03008ECCA7 /* ToDoView.swift */; };
+		6F0C6F722AB84D13008ECCA7 /* SaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C6F712AB84D13008ECCA7 /* SaveView.swift */; };
+		6F0C6F742AB84D24008ECCA7 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C6F732AB84D24008ECCA7 /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		6F0C6F5D2AB84B46008ECCA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6F0C6F5F2AB84B48008ECCA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F0C6F622AB84B48008ECCA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F0C6F692AB84C9F008ECCA7 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		6F0C6F6B2AB84CD3008ECCA7 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		6F0C6F6D2AB84CF2008ECCA7 /* BlindingArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlindingArrays.swift; sourceTree = "<group>"; };
+		6F0C6F6F2AB84D03008ECCA7 /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
+		6F0C6F712AB84D13008ECCA7 /* SaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveView.swift; sourceTree = "<group>"; };
+		6F0C6F732AB84D24008ECCA7 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				6F0C6F5B2AB84B46008ECCA7 /* iOS_Lesson_10_GithubApp.swift */,
 				6F0C6F5D2AB84B46008ECCA7 /* ContentView.swift */,
+				6F0C6F692AB84C9F008ECCA7 /* AddView.swift */,
+				6F0C6F6B2AB84CD3008ECCA7 /* DetailView.swift */,
+				6F0C6F6D2AB84CF2008ECCA7 /* BlindingArrays.swift */,
+				6F0C6F6F2AB84D03008ECCA7 /* ToDoView.swift */,
+				6F0C6F712AB84D13008ECCA7 /* SaveView.swift */,
+				6F0C6F732AB84D24008ECCA7 /* ToDo.swift */,
 				6F0C6F5F2AB84B48008ECCA7 /* Assets.xcassets */,
 				6F0C6F612AB84B48008ECCA7 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F0C6F6E2AB84CF2008ECCA7 /* BlindingArrays.swift in Sources */,
 				6F0C6F5E2AB84B46008ECCA7 /* ContentView.swift in Sources */,
+				6F0C6F6C2AB84CD3008ECCA7 /* DetailView.swift in Sources */,
+				6F0C6F742AB84D24008ECCA7 /* ToDo.swift in Sources */,
 				6F0C6F5C2AB84B46008ECCA7 /* iOS_Lesson_10_GithubApp.swift in Sources */,
+				6F0C6F722AB84D13008ECCA7 /* SaveView.swift in Sources */,
+				6F0C6F702AB84D03008ECCA7 /* ToDoView.swift in Sources */,
+				6F0C6F6A2AB84C9F008ECCA7 /* AddView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
